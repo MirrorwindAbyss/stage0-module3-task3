@@ -2,6 +2,15 @@ package school.mjc.stage0.module3.task3;
 
 public class ReassigningValues {
     public static void main(String[] args) {
-        //write code here
+        int first, second, third;
+        first = 1;
+        second = 10;
+        third = 100;
+        System.out.println("first = " + first +" \n" + "second = " + second + "\n" + "third = " + third);
+        int linkToFirst= first, linkToSecond= second, linkToThird= third;
+        linkToFirst = 15;
+        linkToSecond = 6;
+        linkToThird = 4;
+        System.out.println("\n"+ "linkToFirst = " + linkToFirst +" \n" + "linkToSecond = " + linkToSecond + "\n" + "linkToThird = " + linkToThird);
     }
 }
